@@ -3,7 +3,7 @@
 ## Iniciar banco de dados via docker:
 
 ```DOCKER
-  docker run -p 3306:3306 --name db_jpnatal -e MYSQL_ROOT_PASSWORD=root -e MYSQL_ROOT_HOST=% -d mysql/mysql-server
+  docker run -p 3306:3306 --name db_repair_commerce -e MYSQL_ROOT_PASSWORD=root -e MYSQL_ROOT_HOST=% -d mysql/mysql-server
 ```
 
 ## Setup inicial:
